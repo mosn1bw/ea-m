@@ -9,4 +9,19 @@
   ],
   "website": "http://github.com/yaiio/ea-messenger",
   "repository": "http://github.com/yaiio/ea-messenger"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ],
+  "env": {
+    "ChannelAccessToken": {
+      "description": "Channel Access Token",
+      "required": true
+    },
+    "ChannelSecret": {
+      "description": "Channel Secret",
+      "required": true
+    }
+  }
 }
